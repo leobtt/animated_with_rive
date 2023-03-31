@@ -115,17 +115,14 @@ Future<Object?> customSignInDialog(BuildContext context) {
                     )
                   ],
                 ),
-                Positioned(
+                const Positioned(
                   right: 0,
                   left: 0,
                   bottom: -48,
-                  child: InkWell(
-                    onTap: () => Navigator.pop(context),
-                    child: const CircleAvatar(
-                        radius: 16,
-                        backgroundColor: Colors.white,
-                        child: Icon(Icons.close, color: Colors.black)),
-                  ),
+                  child: CircleAvatar(
+                      radius: 16,
+                      backgroundColor: Colors.white,
+                      child: Icon(Icons.close, color: Colors.black)),
                 )
               ],
             ),
