@@ -19,7 +19,9 @@ class _EntryPointState extends State<EntryPoint> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // body: const HomeScreen(),
+      resizeToAvoidBottomInset: false,
+      extendBody: true,
+      body: const HomeScreen(),
       bottomNavigationBar: SafeArea(
         child: Container(
           padding: const EdgeInsets.all(12),
