@@ -7,7 +7,7 @@ Future<Object?> customSignInDialog(BuildContext context) {
     context: context,
     barrierDismissible: true,
     barrierLabel: 'Sign In',
-    transitionDuration: const Duration(milliseconds: 400),
+    transitionDuration: const Duration(milliseconds: 600),
     transitionBuilder: (context, animation, secondaryAnimation, child) {
       Tween<Offset> tween = Tween<Offset>(
         begin: const Offset(0, -1),
@@ -40,6 +40,7 @@ Future<Object?> customSignInDialog(BuildContext context) {
           ),
           child: Scaffold(
             backgroundColor: Colors.transparent,
+            resizeToAvoidBottomInset: false,
             body: Stack(
               clipBehavior: Clip.none,
               children: [
