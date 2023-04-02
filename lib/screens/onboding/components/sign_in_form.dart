@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:rive/rive.dart';
+import 'package:rive_animation/entry_point.dart';
 import 'package:rive_animation/utils/rive_utils.dart';
 
 class SignInForm extends StatefulWidget {
@@ -44,6 +45,10 @@ class _SignInFormState extends State<SignInForm> {
             () {
               setState(() => isShowLoading = false);
               confetti.fire();
+              Future.delayed(const Duration(seconds: 1), (() {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: ((context) => EntryPoint())));
+              }));
             },
           );
         } else {
