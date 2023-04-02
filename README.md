@@ -1,16 +1,16 @@
-# rive_animation
+<h2 align="center"> Animation with Rive - Flutter </h2>
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Construído com:
 
-This project is a starting point for a Flutter application.
+- [Flutter](https://flutter.dev/) - Build apps for any screen.
+- [Rive](https://rive.app/) - Build interactive animations that run anywhere.
+- [flutter_svg](https://pub.dev/packages/flutter_svg) - This package provides a wrapper around Dart implementations of SVG parsing, including SVG path data.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img alt="palpite" title="#palpite" src="assets/readme/animationRive_1.gif" width="300"/>
+<img alt="palpite" title="#palpite" src="assets/readme/animationRive_2.gif" width="300"/>
+<img alt="palpite" title="#palpite" src="assets/readme/animationRive_3.gif" width="300"/>
+<img alt="palpite" title="#palpite" src="assets/readme/animationRive_4.gif" width="300"/>
